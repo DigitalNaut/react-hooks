@@ -1,0 +1,34 @@
+{
+  "cats": [
+    {
+      "name": "Madelyn",
+      "image": "http://placeimg.com/640/480/animals",
+      "age": 99464,
+      "id": "1"
+    },
+    {
+      "name": "Bulah",
+      "image": "http://placeimg.com/640/480/animals",
+      "age": 72804,
+      "id": "2"
+    },
+    {
+      "name": "Caleigh",
+      "image": "http://placeimg.com/640/480/animals",
+      "age": 15141,
+      "id": "3"
+    },
+    {
+      "name": "Sigmund",
+      "image": "http://placeimg.com/640/480/animals",
+      "age": 47519,
+      "id": "4"
+    },
+    {
+      "name": "Verdie",
+      "image": "http://placeimg.com/640/480/animals",
+      "age": 32277,
+      "id": "5"
+    }
+  ]
+}

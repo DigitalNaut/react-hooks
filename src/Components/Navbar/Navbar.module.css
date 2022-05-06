@@ -1,0 +1,32 @@
+.menu {
+  padding: 0.5em 0;
+  margin: 0;
+  margin-bottom: 1em;
+  
+  display: flex;
+  background-color: var(--color-primary);
+
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+}
+
+.item {
+  padding: 0.5em 0;
+}
+
+.link {
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 0.25em;
+  color: var(--color-primary);
+}
