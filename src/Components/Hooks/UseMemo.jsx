@@ -7,7 +7,7 @@ function fibonacci(num) {
 
 function PreventingCostlyCalculations() {
   const [num, setNum] = useState(0);
-  
+
   const result = useMemo(() => fibonacci(num), [num]);
   // CÓDIGO PROBLEMÁTICO:
   // const result = fibonacci(num);

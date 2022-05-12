@@ -27,6 +27,7 @@ function CallbackComponent() {
   });
 
   const compute = useCallback(() => fibonacci(count), [count]);
+  // const compute = () => fibonacci(count);
 
   return (
     <div>

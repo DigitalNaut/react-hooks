@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from "react";
 
 export function AutoFocus() {
-  const ref = useRef(null);
+  const ref = useRef();
 
   useEffect(() => {
     ref.current?.focus();

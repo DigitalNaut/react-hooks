@@ -2,8 +2,9 @@ import { useState } from "react";
 
 function InfiniteRenderingLoop() {
   // CÓDIGO DE EJEMPLO DE UN LOOP INFINITO:
-  // const [, setValue] = useState(0);
-  // setValue(0);
+  // const [value, setValue] = useState(0);
+  // setValue(value + 1);
+  // console.log(value);
 
   return (
     <section>

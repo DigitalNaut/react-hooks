@@ -22,7 +22,7 @@ class ErrorBoundary extends Component {
             textAlign: "center",
           }}
         >
-          {this.state.error?.message}
+          Error: {this.state.error?.message}
         </span>
       ); // Estilizar aquí
 
@@ -43,6 +43,13 @@ function MyComponent() {
       {show && <FaultyComponent />}
       <button onClick={() => setShow(true)}>
         Mostrar componente con error
+      </button>
+      <button
+        onClick={() => {
+          throw new Error("Error de evento");
+        }}
+      >
+        Aventar error de evento
       </button>
     </>
   );
