@@ -43,6 +43,8 @@ function PreventingCostlyCalculations() {
   );
 }
 
+// ------------------------------------------------------------
+
 export default function UseMemo() {
   return (
     <>

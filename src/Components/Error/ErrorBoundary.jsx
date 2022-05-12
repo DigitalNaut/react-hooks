@@ -44,12 +44,14 @@ function MyComponent() {
       <button onClick={() => setShow(true)}>
         Mostrar componente con error
       </button>
+      <p />
+      <p>👀 No responde a errores de evento:</p>
       <button
         onClick={() => {
           throw new Error("Error de evento");
         }}
       >
-        Aventar error de evento
+        Arrojar un error de evento (ver consola)
       </button>
     </>
   );
