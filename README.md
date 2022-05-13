@@ -28,15 +28,9 @@
 git clone "https://github.com/DigitalNaut/react-hooks" && cd react-cheat-sheet && npm i
 ```
 
-## Correr el proyecto
+## Corre el proyecto
 
-1. Levanta el simulador de servidor en una terminal (sólo necesario para useEffect)
-
-```sh
-npm run dev
-```
-
-2. Corre el proyecto en otra terminal
+Levanta el simulador de servidor y el proyecto simultáneamente con el siguiente comando:
 
 ```sh
 npm start
